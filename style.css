@@ -389,6 +389,11 @@ footer{
         
     }
 
+    nav img{
+        width: 30px;
+        height: 30px;
+    }
+
     .line{
         position: absolute;
         cursor: pointer;
@@ -396,6 +401,7 @@ footer{
         top: 50%;
         transform: translate(-5%, -50%);
         z-index: 2;
+        border-radius: 100%;
     }
 
     .nav-links{
@@ -403,22 +409,32 @@ footer{
         background: transparent;
         height: 30vh;
         width: 50%;
-        right: 0;
-        
+        right: 0;    
         flex-direction: column;
         clip-path: circle(0px at 70% -15%);
         -webkit-clip-path: circle(0px at 70% -15%); 
-        
         transition: all 3s ease-out;
         pointer-events: none;
     }
 
     .nav-links.open{
-    
          clip-path: circle(800px at 70% -15%);
         -webkit-clip-path: circle(800px at 70% -15%); 
         pointer-events: all;
     }
+    .nav-links li a{
+        font-size: 13px;
+    }
+
+    .intro1{
+        font-size: 26px;
+    }
+    
+    .intro3{
+        font-size: 19px;
+        
+    }
+
     .s1{
         margin-top: 100px;
     }
@@ -435,27 +451,73 @@ footer{
         display: none;
     }
 
+    .ul li{
+        font-size: 16px;
+    }
+    .s3 h2{
+        font-size: 24px;
+    }
+
     .projects-folder{
         display: flex;
         flex-direction: column;
     }
 
     .project-card{
-        width: 85%;
+        width: 90%;
+        height: 300px;
+        z-index: 9;
     }
 
+    .project-title{
+        font-size: 20px;
+    }
+
+    .img-text{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        position: relative;
+    }
+
+    .box1{
+        width: 60%;
+        height: 100%;
+        position: absolute;
+    }
+    .img-text img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    
     .project-description{
-        font-size: 15px;
-        color: tomato;
+        position: absolute;
+        width: 50%;
+        font-size: 10px;
+        color: #161748 ;
+        right: 2%;
+    }
+    .tools{
+        width: 70%;
+    }
+    .tools p {
+        font-size: 10px;
+    }
+    
+    .links{
+        width: 30%;
     }
 
+    .links a i{
+        font-size: 16px;
+    }
 
     .nav-links li{
         opacity: 0;
     }
-    .nav-links li a{
-        font-size: 20px;
-    }
+    
 
     .nav-links li:nth-child(1){
         transition: all 0.5s ease 0.2s;
@@ -471,4 +533,6 @@ footer{
     li.fade {
         opacity: 1;
     }
+
+    
 }
