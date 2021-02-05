@@ -7,6 +7,8 @@
 body{
     font-family: sans-serif;
     width: 100%;
+    background-color: #161748;
+
 }
 
 .container{
@@ -261,6 +263,7 @@ footer{
     display: none;
 }
 
+
 .s3{
     border-top: 1px solid white;
 }
@@ -282,7 +285,7 @@ footer{
     margin-top: 3%;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    width: 40%;
+    width: 45%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -382,10 +385,11 @@ footer{
         display: block;
     }
     nav{
-        position: fiexd;
+        position: fixed;
+        
     }
 
-    .hamburger{
+    .line{
         position: absolute;
         cursor: pointer;
         right: 5%;
@@ -396,27 +400,55 @@ footer{
 
     .nav-links{
         position: absolute;
-        background: #5b78c7;
-        height: 25vh;
+        background: transparent;
+        height: 30vh;
         width: 50%;
         right: 0;
         
         flex-direction: column;
-        clip-path: circle(70px at 70% -15%);
-        -webkit-clip-path: circle(70px at 70% -15%);
+        clip-path: circle(0px at 70% -15%);
+        -webkit-clip-path: circle(0px at 70% -15%); 
+        
         transition: all 3s ease-out;
         pointer-events: none;
     }
 
     .nav-links.open{
-        clip-path: circle(800px at 70% -15%);
-        -webkit-clip-path: circle(800px at 70% -15%);
+    
+         clip-path: circle(800px at 70% -15%);
+        -webkit-clip-path: circle(800px at 70% -15%); 
         pointer-events: all;
     }
+    .s1{
+        margin-top: 100px;
+    }
 
-    .landing{
+    .s1, .s2, .s3, .s4{
+        
+        display: flex;
         flex-direction: column;
     }
+    .summary, .about-me, .contact-box{
+        width: 100%;
+    }
+    .photo{
+        display: none;
+    }
+
+    .projects-folder{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card{
+        width: 85%;
+    }
+
+    .project-description{
+        font-size: 15px;
+        color: tomato;
+    }
+
 
     .nav-links li{
         opacity: 0;
