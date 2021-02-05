@@ -18,8 +18,6 @@ body{
 
 nav{
     height: 10vh;
-    background: rgba(87, 26, 117, 0.6);
-    background-color: rgba(1, 1, 15, 0.3);
     background-color: transparent;
     position: fixed;
     top: 0;
@@ -44,7 +42,7 @@ nav img{
     
 }
 .nav-links li a{
-    color: white;
+    color: #c7d3d4ff;
     text-decoration: none;
     font-size: 22px;
 }
@@ -57,7 +55,7 @@ nav img{
     border-radius: 20px;
 }
 #resume{
-    color: white;
+    color: #cbce91ff;
 }
 
 /* sections */
@@ -111,7 +109,7 @@ section{
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 30px;
-    color: #cdd422;
+    color: #cbce91ff;
 }
 
 /*
@@ -129,9 +127,9 @@ section{
 
 .intro3{
     line-height: 35px;
-    font-size: 30px;
+    font-size: 26px;
     margin:15px 0;
-    color: #fff7d9;
+    color: #c7d3d4ff;
 }
 
 .intro4 {
@@ -142,12 +140,13 @@ section{
     cursor: pointer;
     width: 130px;
     font-size: 19px;
-    font-weight: 500;
-    background: rgba(87, 26, 117, 0.4);
+    font-weight: 600;
+    background: transparent;
+    border: 5px solid white;
 }
 
 .intro4 a{
-    color: white;
+    color: #cbce91ff;
 }
 
 .photo{
@@ -172,16 +171,17 @@ section{
 
 .say-hello{
     
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     font-size: 36px;
 }
 
 .say-hello a{
     text-decoration: none;
-    border: 1px solid black;
+    border: 4px solid white;
     padding: 20px;
     border-radius: 25px;
+    color: #cbce91ff;
 }
 
 .contact-box h2{
@@ -197,6 +197,8 @@ ul{
 }
 ul li{
     margin-top: 20px;
+    color: #cbce91ff;
+    font-size: 24px ;
 }
 
 
@@ -248,7 +250,7 @@ footer{
     text-align: center;
     bottom: 0;
     overflow: hidden;
-    background:lightblue;
+    background:transparent;
     
 }
 
@@ -263,7 +265,8 @@ footer{
 .s3 h2{
     text-align: center;
     font-size: 40px;
-    color: #1237A1;
+    color: #dcdee4;
+    margin-top: 30px;
 }
 
 .projects-folder{
@@ -275,10 +278,10 @@ footer{
 }
 .project-card{
     margin-top: 3%;
-    background-color: #5b78c7;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     width: 40%;
-    height: 45vh;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,7 +289,9 @@ footer{
 }
 
 .project-title{
-    font-size: 30px;   
+    font-size: 30px; 
+    color: antiquewhite;  
+    font-weight: 500;
 }
 
 .img-text{
@@ -303,7 +308,7 @@ footer{
     left: 2%;
     width: 60%;
     height: 100%;
-    background: red;
+
 }
 
 .box1 img{
@@ -315,13 +320,16 @@ footer{
 .project-description{
     position: absolute;
     text-align: center;
-    right: 2%;
+    right: -3%;
     z-index: 1;
     width: 50%;
     padding: 10px;
     border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
     opacity: 2;
-    background-color: rgba(255, 255, 255, 0.3);
+    color: burlywood;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .tool-likes{
     margin-top: 15px;
@@ -333,13 +341,27 @@ footer{
 
 .tools{
     display: inline-flex;
+    width: 80%;
+    color: wheat;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.links{
+    width: 20%;
 }
 
 .tools p{
     margin-right: 20px;
     font-size: 20px;
+    font-weight: 30px;
 }
-
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
 
 .links a{
     font-size: 25px;
