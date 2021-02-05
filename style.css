@@ -27,8 +27,9 @@ nav{
 
 nav img{
     position: absolute;
-    width: 4vw;
-    height: 80%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
 }
 
 .nav-links{
@@ -205,13 +206,14 @@ ul li{
 .leg { 
     text-align: center; 
     background: red;
-    height: 100vh;
+    height: 100%;
     background: #5b78c7;
     position: fixed;
     top: 0;
     height: 100vh;
     width: 80px;
     background: rgba(87, 26, 117, 0.4);
+    background: transparent;
     top: 0;
     left: 0;
     
@@ -357,10 +359,10 @@ footer{
     font-weight: 30px;
 }
 .black{
-    color: black;
+    color: rgba(15, 15, 15, 0.6);
 }
 .white{
-    color: white;
+    color: rgba(235, 231, 231, 0.5);
 }
 
 .links a{
