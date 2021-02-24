@@ -37,7 +37,7 @@ const mP = gsap.timeline({
 })
 
 sT.fromTo(cB, 1.0, {y : "-90", opacity:0}, {y:0, opacity: 1})
-mP.fromTo(fB, 1.0, {y : "90", opacity:0.4}, {y:0, opacity: 1})
+mP.fromTo(fB, 1.0, {y : "90", opacity:0.9}, {y:0, opacity: 1})
 
 //sT.from(cB,{x: 200, opacity: 1, duration: 1.5})
 
